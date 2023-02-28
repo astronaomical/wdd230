@@ -89,7 +89,7 @@ footer {
   border-radius: 15px;
 }
 
-#updated {
+.updated {
   font-size: 0.875em;
   color: darkorange; 
   margin-top: 0;

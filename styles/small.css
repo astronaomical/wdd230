@@ -14,24 +14,26 @@ body {
 header {
   background: midnightblue;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 30px;
   border-radius: 15px;
+  text-align: center;
 }
 
 header img {
   max-width: 180px;
-  margin: 0 15px 0 0;
+  margin: 0;
   padding: 15px;
-  border: 2.5px solid white;
+  border: 2px solid white;
 }
 
 header h1 {
   color: white;
-  font-size: 3em;
+  font-size: 2.5em;
   padding: 15px;
+  font-family: 'Playfair Display', serif;
 }
 
 main {
@@ -42,12 +44,11 @@ main {
 }
 
 main h2 {
-  font-family: 'Playfair Display', serif;
   color: midnightblue;
-  font-size: 2em;
-  padding: 25px 15px;
+  font-size: 1.5em;
+  padding: 30px 15px;
   margin: 15px 15px 0 15px;
-  border: 2.5px solid midnightblue;
+  border: 2px solid midnightblue;
 }
 
 main ul li {
@@ -60,6 +61,16 @@ main ul li a:link, main ul li a:visited  {
 
 main ul li a:hover, main ul li a:active  {
   color: darkorange;
+}
+
+main ul ul {
+  list-style-type: disc;
+}
+
+ul:nth-child(3) {
+  list-style-type: none; 
+  padding: 0;
+  margin-top: 0;
 }
 
 hr {
